@@ -1,0 +1,65 @@
+/* 下部资讯 */
+*{
+	padding:0;
+	margin:0;
+}
+#bottom{
+	width:1200px;
+	height:195px;
+	margin:0 auto;
+}
+#bottom>div{
+	width:25%;
+	float:left;
+	border-right:1px solid #dedede;
+}
+#bottom>div:last-child{
+	border:0;
+}
+#bottom>div>h4{
+	font-size:18px;
+	color:#666;
+	margin-left:42px;
+}
+#bottom>div>ul{
+	float:left;
+	margin-bottom:0;
+}
+#bottom>div>ul>li>a{
+	font-size:14px;
+	color:#666;
+}
+#bottom>div>ul{
+	margin-left:42px;
+}
+#bottom>div:last-child{
+	text-align:center;
+}
+#bottom>div:last-child>p{
+	font-size:14px;
+	color:#666;
+	margin-bottom:6px;
+}
+#bottom>div:last-child>div{
+	border:1px solid #aaa;
+	width:132px;
+	height:142px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#bottom>div:last-child>div>img{
+	margin-top:6px;
+}
+#bottom>div:last-child>div>p{
+	font-size:12px;
+	color:#999;
+}
+/* 底部信息 */
+#dibu{
+	width:1200px;
+	height:70px;
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;
+	color:#999;
+}
