@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+#reg{
+	width:100%;
+	height:100px;
+}
+#reg>div{
+	width:1200px;
+	margin:0 auto;
+}
+#reg>div>h1{
+	float:left;
+	line-height:100px;
+}
+#reg>div>h4{
+	float:left;
+	height:33px;
+	margin:42px 0 0 20px;
+	padding-left:20px;
+	border-left:1px solid #ddd;
+}
+section{
+	margin:0;
+}
+#backg{
+	width:100%;
+	height:560px;
+	background-image:url("../img/bg/bg.png");
+	position:relative;
+}
+#backg>div{
+	width:600px;
+	height:490px;
+	position:absolute;
+	top:38px;
+	right:100px;
+	background:rgba(0,0,0,0.3);
+}	
+#backg>div>div:first-child{
+	width:100%;
+	height:70px;
+}
+#backg>div>div>h3{
+	float:left;
+	line-height:70px;
+	color:#fff;
+	margin:0 0 0 15px;
+}
+#backg>div>div>p{
+	float:right;
+	line-height:70px;
+	color:#fff;
+	margin:5px 190px 0 0;
+}
+
+#backg>div>div:nth-child(3){
+	height:400px;
+	overflow:hidden;
+}
+#backg>div>div>ul{
+	float:left;
+}
+#backg>div>div>ul>li{
+	margin:23px 0;
+}
+#backg>div>div>ul:first-child{
+	width:20%;
+	text-align:right;
+}
+#backg>div>div>ul:last-child{
+	width:52%;
+	margin-left:10px;
+}
+#backg>div>div>ul:first-child li{
+	margin-top:25px;
+	height:38px;
+	font-size:14px;
+	color:#fff;
+}
+#backg>div>div>ul:last-child>li>input{
+	height:38px;
+	width:90%;
+	font-size:14px;
+	padding-left:8px;
+	border:0;
+	border-radius:2%;
+}
+#backg>div>div>ul:last-child>li>a>input{
+	height:38px;
+	width:90%;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	background:-webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+	border:0;
+	cursor: pointer;
+	border-radius:2%;
+}
+#dibu_reg{
+	width:100%;
+	height:260px;
+	margin-top:20px;
+}
+
+
+
+
+
+
