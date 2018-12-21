@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  <title>Document</title>
+ </head>
+ <body>
+		<header>
+			<iframe src="header.html" scrolling="no" frameborder="0"></iframe>
+		</header>
+		<!-- 轮播图 -->
+		<main id="main" class="container">
+			<div id="change" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#change" data-slide-to="0" class="active"></li>
+					<li data-target="#change" data-slide-to="1"></li>
+					<li data-target="#change" data-slide-to="2"></li>
+					<li data-target="#change" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/carousel/banner1.png" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/carousel/banner2.png" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/carousel/banner3.png" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/carousel/banner4.png" alt="4th slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#change" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#change" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</main>
+		<section>
+			<!-- 右侧侧边栏 -->
+				 <aside class="side">
+					<div>
+						<h5>公告</h5>
+					</div>
+					<div>
+						<h6><a href="">出境自助游知识和安全教育说明</a></h6>
+						<h6><a href="">反网络诈骗专栏</a></h6>
+						<h6><a href="">天天网已通过支付卡产业数据安全标准</a></h6>
+						<h6><a href="">“放心消费在社区”系列活动</a></h6>
+					</div>
+					<div>
+						<ul>
+							<li>天天网客服</li>
+							<li>国内客服</li>
+							<li>国际客服电话</li>
+						</ul>
+						<ul class="gonggaoul">
+							<li>提供24小时服务</li>
+							<li>95555</li>
+							<li>0371-12345678</li>
+						</ul>
+					</div>
+				</aside> 
+			<!-- 特惠部分 -->
+			<div class="tabs">
+				<ul id="tab">
+					<li class="active"><a href="#content1" data-toggle="tab">今日特惠</a></li>
+					<li><a href="#content2" data-toggle="tab">特惠门票</a></li>
+					<li><a href="#content3" data-toggle="tab">特惠一日游</a></li>
+					<li><a href="">更多 &gt;</a></li>
+				</ul>
+				<div style="clear:both"></div>
+				<!-- 特惠部分的小块内容 -->
+				<div id="container">
+					<div id="content1" class="active top_chance">
+						<ul class="first_content1">
+							<li>
+								<div>
+									<a href=""><img src="img/tehui1/first1.jpg" alt=""></a>
+								</div>
+								<div class="first_content1_right">
+									<div>
+										<h5>北京 - 德法意瑞</h5>
+										<h5>11-14天跟团游</h5>
+									</div>
+									<div>
+										<h6>五星航空+滴滴湖+卢浮宫</h6>
+										<h6>+签证+无强制自费</h6>
+										<p></p>
+									</div>
+									<h4>¥4500</h4>
+								</div>
+							</li>
+							<li>
+								<div>
+									<a href=""><img src="img/tehui1/first2.jpg" alt=""></a>
+								</div>
+								<div class="first_content1_right">
+									<div>
+										<h5>北京 - 大阪</h5>
+										<h5>自由行</h5>
+									</div>
+									<div>
+										<h6>【自由行】特价机票@北</h6>
+										<h6>京--大阪往返@全日航空</h6>
+										<p></p>
+									</div>
+									<h4>¥3150</h4>
+								</div>
+							</li>
+						</ul>
+						<ul class="first_content2">
+							<li>
+								<img src="img/tehui1/first3.jpg" alt="">
+								<h6>北京 - 泰国 7天5晚 跟团游</h6>
+								<p>春节寒假：泰国曼谷+芭提雅+月光岛</p>
+								<h4>¥4260</h4>
+							</li>
+							<li>
+								<img src="img/tehui1/first4.jpg" alt="">
+								<h6>海口 - 三亚 2天1晚 跟团游</h6>
+								<p>国旅品质+特惠促销+经典路线</p>
+								<h4>¥168</h4>
+							</li>
+						</ul>
+						<ul class="first_content2">
+							<li>
+								<img src="img/tehui1/first5.jpg" alt="">
+								<h6>北京 - 长滩岛 6天4晚 跟团游</h6>
+								<p>【冰点价】直飞长滩岛6~8天3A度假村</p>
+								<h4>¥2659</h4>
+							</li>
+							<li>
+								<img src="img/tehui1/first6.jpg" alt="">
+								<h6>昆明 - 越南 6天5晚 跟团游</h6>
+								<p>包机直飞+海边酒店+珍珠岛乐园</p>
+								<h4>¥960</h4>
+							</li>
+						</ul>
+					</div>
+					<div id="content2" class="top_chance">
+						<ul class="first_content1">
+							<li>
+								<div>
+									<a href=""><img src="img/tehui2/second1.jpg" alt=""></a>
+								</div>
+								<div class="first_content1_right">
+									<div>
+										<h5>河南出发一日游</h5>
+									</div>
+									<div>
+										<h6>[北京]【7-10-12点】纯玩</h6>
+										<h6>八达岭长城+往返直通</h6>
+										<h6>车,门票午餐可选</h6>
+									</div>
+									<h4 class="first_price">¥48</h4>
+								</div>
+							</li>
+							<li>
+								<div>
+									<a href=""><img src="img/tehui2/second2.jpg" alt=""></a>
+								</div>
+								<div class="first_content1_right">
+									<div>
+										<h5>[北京]九华山庄温</h5>
+										<h5>泉住区公园夜场</h5>
+									</div>
+									<div>
+										<h6>九华出品,必是精品</h6>
+									</div>
+									<h4 class="second_price">¥78</h4>
+								</div>
+							</li>
+						</ul>
+						<ul class="first_content2">
+							<li>
+								<img src="img/tehui2/second3.jpg" alt="">
+								<h6>[北京]北京莲花山滑雪场</h6>
+								<p>滑雪场中还有绿色生态园</p>
+								<h4>¥68</h4>
+							</li>
+							<li>
+								<img src="img/tehui2/second4.jpg" alt="">
+								<h6>河南出发一日游</h6>
+								<p>[北京]【可选住宿】北京古北水镇</p>
+								<h4>¥158</h4>
+							</li>
+						</ul>
+						<ul class="first_content2">
+							<li>
+								<img src="img/tehui2/second5.jpg" alt="">
+								<h6>河南出发一日游</h6>
+								<p>[北京]【可选上门接】北京八达岭长城</p>
+								<h4>¥138</h4>
+							</li>
+							<li>
+								<img src="img/tehui2/second6.jpg" alt="">
+								<h6>[北京]温度水城两馆通票</h6>
+								<p>景色宜人</p>
+								<h4>¥128</h4>
+							</li>
+						</ul>
+					</div>
+					<div id="content3" class="top_chance">
+						<ul class="first_content1">
+								<li>
+									<div>
+										<a href=""><img src="img/tehui3/third1.jpg" alt=""></a>
+									</div>
+									<div class="first_content1_right">
+										<div>
+											<h5>郑州出发一日游</h5>
+										</div>
+										<div>
+											<h6>【郑州出发】嵩山少林</h6>
+											<h6>寺、三皇寨一日(含武术</h6>
+											<h6>表演上门接)</h6>
+										</div>
+										<h4>¥130</h4>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a href=""><img src="img/tehui3/third1.jpg" alt=""></a>
+									</div>
+									<div class="first_content1_right">
+										<div>
+											<h5>郑州出发一日游</h5>
+										</div>
+										<div>
+											<h6>【郑州出发】嵩山少林寺</h6>
+											<h6>+龙门石窟一日游【纯玩/</h6>
+											<h6>免费上门接】</h6>
+										</div>
+										<h4>¥118</h4>
+									</div>
+								</li>
+							</ul>
+							<ul class="first_content2">
+								<li>
+									<img src="img/tehui3/third3.jpg" alt="">
+									<h6>洛阳出发一日游</h6>
+									<p>【洛阳出发纯玩】少林寺+龙门石窟</p>
+									<h4>¥266</h4>
+								</li>
+								<li>
+									<img src="img/tehui3/third4.jpg" alt="">
+									<h6>洛阳出发一日游</h6>
+									<p>【洛阳出发纯玩】龙门石窟+白马寺</p>
+									<h4>¥225</h4>
+								</li>
+							</ul>
+							<ul class="first_content2">
+								<li>
+									<img src="img/tehui3/third5.jpg" alt="">
+									<h6>郑州出发一日游</h6>
+									<p>郑州到焦作云台山+红石峡+潭瀑峡</p>
+									<h4>¥178</h4>
+								</li>
+								<li>
+									<img src="img/tehui3/third6.jpg" alt="">
+									<h6>郑州出发一日游</h6>
+									<p>【逛古都品小吃】开封府+清明上河园</p>
+									<h4>¥245</h4>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<!-- 热门假期内容 -->
+			<div id="dujia">
+				<div class="top">
+					<h4>当前热门度假</h4>
+				</div>
+				<div class="dujia_neirong">
+				<!-- 左侧小块内容 -->
+					<ul>
+						<li>
+							<div>
+								<h6>周边游</h6>
+								<ul>
+									<li><a href="">开封</a></li>
+									<li><a href="">云台山</a></li>
+									<li><a href="">洛阳</a></li>
+								</ul>
+								<p><a href="">郑州方特欢乐世界</a></p>
+								<ul>
+									<li><a href="">嵩山少林寺</a></li>
+									<li><a href="">龙门石窟</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h6>国内游</h6>
+								<ul>
+									<li><a href="">三亚</a></li>
+									<li><a href="">丽江</a></li>
+									<li><a href="">厦门</a></li>
+								</ul>
+								<ul>
+									<li><a href="">哈尔滨</a></li>
+									<li><a href="">成都</a></li>
+									<li><a href="">雪乡</a></li>
+								</ul>
+								<ul>
+									<li><a href="">西双版纳</a></li>
+									<li><a href="">桂林</a></li>
+									<li><a href="">西安</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h6>出境游</h6>
+								<ul>
+									<li><a href="">泰国</a></li>
+									<li><a href="">日本</a></li>
+									<li><a href="">芽庄</a></li>
+								</ul>
+								<ul>
+									<li><a href="">巴厘岛</a></li>
+									<li><a href="">越南</a></li>
+									<li><a href="">普吉岛</a></li>
+								</ul>
+								<ul>
+									<li><a href="">新加坡</a></li>
+									<li><a href="">马尔代夫</a></li>
+									<li><a href="">沙巴</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h6>签证</h6>
+								<ul>
+									<li><a href="">日本</a></li>
+									<li><a href="">泰国</a></li>
+									<li><a href="">韩国</a></li>
+									<li><a href="">美国</a></li>
+								</ul>
+								<ul>
+									<li><a href="">澳大利亚</a></li>
+									<li><a href="">南非</a></li>
+									<li><a href="">台湾</a></li>
+								</ul>
+								<ul>
+									<li><a href="">新加坡</a></li>
+									<li><a href="">马来西亚</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 右侧小块内容 -->
+				<ul>
+					<li>
+						<img src="img/holiday/holiday1.jpg" alt="">
+						<h6>含往返机票(含税)+4晚住宿</h6>
+						<h4>¥1880</h4>
+					</li>
+					<li>
+						<img src="img/holiday/holiday2.jpg" alt="">
+						<h6>含往返机票(含税)+5晚住宿</h6>
+						<h4>¥2160</h4>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<img src="img/holiday/holiday3.jpg" alt="">
+						<h6>含往返机票(含税)+4晚住宿</h6>
+						<h4>¥2280</h4>
+					</li>
+					<li>
+						<img src="img/holiday/holiday4.jpg" alt="">
+						<h6>含往返机票(含税)+7晚住宿</h6>
+						<h4>¥3660</h4>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<img src="img/holiday/holiday5.jpg" alt="">
+						<h6>含往返机票(含税)+5晚住宿</h6>
+						<h4>¥2610</h4>
+					</li>
+					<li>
+						<img src="img/holiday/holiday6.jpg" alt="">
+						<h6>含往返机票(含税)+6晚住宿</h6>
+						<h4>¥2880</h4>
+					</li>
+				</ul>
+			</div>
+			<!-- 热门景点 -->
+			<div id="jingdian">
+				<div class="top">
+					<h4>当前景点门票</h4>
+				</div>
+				<div class="jingdian_neirong">
+				<!-- 左侧小块内容 -->
+					<ul>
+						<li>
+							<div>
+								<h6>热门景点</h6>
+								<ul>
+									<li><a href="">开封东京极地海洋馆</a></li>
+									<li><a href="">嵩山</a></li>
+								</ul>
+								<ul>
+									<li><a href="">重渡沟</a></li>
+									<li><a href="">南湾湖</a></li>
+								</ul>
+								<ul>
+									<li><a href="">洛阳老君山</a></li>
+									<li><a href="">环翠峪</a></li>
+								</ul>
+								<ul>
+									<li><a href="">竹林长寿山景区</a></li>
+									<li><a href="">尧山</a></li>
+								</ul>
+								<ul>
+									<li><a href="">大宋东京梦华</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h6>国内目的地</h6>
+								<ul>
+									<li><a href="">武汉</a></li>
+									<li><a href="">北京</a></li>
+									<li><a href="">上海</a></li>
+									<li><a href="">三亚</a></li>
+								</ul>
+								<ul>
+									<li><a href="">成都</a></li>
+									<li><a href="">厦门</a></li>
+									<li><a href="">广州</a></li>
+									<li><a href="">深圳</a></li>
+								</ul>
+								<ul>
+									<li><a href="">杭州</a></li>
+									<li><a href="">大连</a></li>
+									<li><a href="">桂林</a></li>
+									<li><a href="">重庆</a></li>
+								</ul>
+								<ul>
+									<li><a href="">青岛</a></li>
+									<li><a href="">苏州</a></li>
+									<li><a href="">南京</a></li>
+									<li><a href="">丽江</a></li>
+								</ul>
+								<ul>
+									<li><a href="">天津</a></li>
+									<li><a href="">昆明</a></li>
+									<li><a href="">张家界</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div>
+								<h6>品质一日游</h6>
+								<ul>
+									<li><a href="">少林寺</a></li>
+									<li><a href="">龙门石窟</a></li>
+									<li><a href="">白园</a></li>
+								</ul>
+								<ul>
+									<li><a href="">三皇寨</a></li>
+									<li><a href="">香山寺</a></li>
+									<li><a href="">云台山</a></li>
+								</ul>
+								<ul>
+									<li><a href="">洛阳白马寺</a></li>
+									<li><a href="">洛阳博物馆</a></li>
+								</ul>
+								<ul>
+									<li><a href="">丽景门</a></li>
+									<li><a href="">清明上河园</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 右侧小块内容 -->
+				<ul>
+					<li>
+						<img src="img/ticket/ticket1.jpg" alt="">
+						<h6>龙门石窟</h6>
+						<p>世界文化遗产中国石刻艺术宝库</p>
+						<h4>¥100</h4>
+					</li>
+					<li>
+						<img src="img/ticket/ticket2.png" alt="">
+						<h6>少林寺</h6>
+						<p>登顶中岳嵩山,一览天下盛景</p>
+						<h4>¥70</h4>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<img src="img/ticket/ticket3.jpg" alt="">
+						<h6>清明上河园</h6>
+						<p>穿越宋朝,亲身体验清明上河图</p>
+						<h4>¥0.9</h4>
+					</li>
+					<li>
+						<img src="img/ticket/ticket4.jpg" alt="">
+						<h6>开封府</h6>
+						<p>开封有个包青天,贴面无私辨忠奸</p>
+						<h4>¥58.8</h4>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<img src="img/ticket/ticket5.jpg" alt="">
+						<h6>红旗渠</h6>
+						<p>渠水奔腾,飞瀑喷雪,好似银河倾泻</p>
+						<h4>¥40</h4>
+					</li>
+					<li>
+						<img src="img/ticket/ticket6.jpg" alt="">
+						<h6>太行大峡谷</h6>
+						<p>带你感受峡谷纵横的壮观</p>
+						<h4>¥8</h4>
+					</li>
+				</ul>
+			</div>
+			<div id="gonglv">
+				<div class="top">
+					<h4>旅游攻略</h4>
+				</div>
+				<div id="app">
+					<video src="video/ly.mp4" controls id="VO"></video>
+				</div>
+				<ul>
+					<li>
+						<a href=""><img src="img/gonglue/gonglue1.jpg" alt=""></a>
+						<p>自然风光</p>
+					</li>
+					<li>
+						<a href=""><img src="img/gonglue/gonglue2.jpg" alt=""></a>
+						<p>艺术殿堂</p>
+					</li>	
+				</ul>
+			</div>
+		</section>
+		<iframe src="footer.html" frameborder="0" scrolling="no" id="dibu"></iframe>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/index.js"></script>
+ </body>
+</html>
