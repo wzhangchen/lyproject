@@ -1,0 +1,435 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	color:#666;
+}
+a:hover{
+	text-decoration:none;
+	color:#00a3d2;
+}
+iframe{
+	width:100%;
+	height:78px;
+}
+/* 轮播图下特惠 */
+section{
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+}
+/* 右侧侧边栏 */
+.side{
+	float:right;
+	border:1px solid #eee;
+	font-size:12px;
+	position:absolute;
+	right:10px;
+	top:50px;
+	width:220px;
+	height:220px;
+	overflow:hidden;
+}
+.side>div>h5{
+	font-size:14px;
+	line-height:25px;
+	margin-left:7px;
+}
+.side>div:first-child{
+	height:25px;
+	width:100%;
+	border:1px solid #eee;
+}
+.side>div:nth-child(2){
+	border:1px solid #eee;
+}
+.side>div>h6{
+	margin-left:7px;
+}
+.side>div>h6>a{
+	font-size:12px;
+}
+.side>div>h6:first-child{
+	margin-top:8px;
+}
+.side>div>ul{
+	margin-top:7px;
+}
+.side>div:last-child>ul:first-child{
+	float:left;
+	margin-left:7px;
+}
+.side>div:last-child>ul:last-child{
+	float:right;
+	margin-right:7px;
+}
+.gonggaoul>li:not(:first-child){
+	color:#cb0101;
+}
+.gonggaoul>li:nth-child(2){
+	margin-left:50px;
+}
+.tabs{
+	width:1200px;
+	height:594px;
+	margin:0 auto;
+	float:left;
+}
+#tab{
+	height:51px;
+	border-bottom:3px solid #0093d8;
+	width:950px;
+}
+#tab>li{
+	float:left;
+	line-height:33px;
+	text-align:center;
+	width:90px;
+	height:33px;
+	margin-top:10px;
+}
+#tab>li>a{
+	font-weight:bold;
+	color:#3bb0d0;
+	font-size:16px;
+}
+#tab>li:hover{
+	background:#3bb0d0;
+}
+#tab>li:hover a{
+	color:#fff;
+	text-decoration:none;
+}
+#tab>active{
+	background:#3bb0d0;
+}
+#tab>active>a{
+	color:#fff;
+}
+#tab>li:last-child{
+	float:right;
+	margin-top:20px;
+	height:28px;
+}
+#tab>li:last-child>a{
+	font-size:12px;
+	color:#000;
+	font-weight:normal;
+	line-height:0;
+}
+#tab>li:last-child:hover{
+	background:#fff;
+}
+/* 特惠内容 */
+/* 左 */
+.first_content1{
+	width:428px;
+	height:510px;
+	display:inline-block;
+	float:left;
+}
+.first_content1>li{
+	width:427px;
+	height:240px;
+	border:1px solid #eee;
+	overflow:hidden;
+}
+.first_content1>li:hover{
+	border:1px solid #3bb0d0;
+}
+.first_content1>li>div img{
+	height:238px;
+	width:243px;
+}
+.first_content1>li>div{
+	display:inline-block;
+	overflow:hidden;
+}
+.first_content1>li>div:last-child{
+	width:181px;
+	height:238px;
+}
+.first_content1_right{
+	margin-left:-4px;
+}
+.first_content1_right>div:first-child{
+	background:#3bb0d0;
+	font-size:20px;
+	color:#fff;
+	height:78px;
+	font-family:Microsoft YaHei;
+	overflow:hidden;
+	text-align:center;
+}
+.first_content1_right>div>h5{
+	font-weight:bold;
+	margin-top:10px;
+}
+.first_content1_right>div:nth-child(2){
+	text-align:left;
+}
+.first_content1_right>div>h6{
+	font-size:14px;
+	color:#555;
+	margin:10px 0 0 10px;
+}
+.first_content1_right>h4{
+	margin:72px 0 0 8px;
+	color:#f55;
+}
+.first_content1>li:last-child{
+	margin-top:18px;
+}
+/* 中  、右*/
+.first_content2{
+	display:inline-block;
+	float:left;
+}
+.first_content2>li{
+	width:256px;
+	height:241px;
+	border:1px solid #eee;
+	font-size:14px;
+	margin-left:8px;
+}
+.first_content2>li:hover{
+	border:1px solid #3bb0d0;
+}
+.first_content2>li>img{
+	width:254px;
+	height:144px;
+}
+.first_content2>li>h6{
+	font-size:15px;
+	font-weight:bold;
+	color:#333;
+	margin-left:8px;
+}
+.first_content2>li>p{
+	margin-left:8px;
+	color:#999;
+}
+.first_content2>li>h4{
+	color:#f55;
+	margin-left:8px;
+}
+.first_content2>li:last-child{
+	margin-top:20px;
+}
+#container{
+	position:relative;
+}
+.top_chance{
+	position:absolute;
+	background:#fff;
+}
+#container>.active{
+	z-index:10;
+}
+.first_content1>li .first_price{
+	margin-top:50px;
+}
+.first_content1>li .second_price{
+	margin-top:98px;
+}
+#content3 .first_content1 h4{
+	margin-top:50px;
+}
+/* 度假部分 */
+#dujia{
+	width:1200px;
+	height:640px;
+	margin:0 auto;
+}
+#dujia>.top{
+	width:950px;
+	height:45px;
+	border-bottom:2px solid #00afc7;
+	color:#00afc7;
+}
+#dujia>.top>h4{
+	line-height:45px;
+}
+.dujia_neirong{
+	width:177px;
+	float:left;
+}
+.dujia_neirong>ul>li>div{
+	margin-top:10px;
+	border:1px solid #e2f3f8;
+}
+.dujia_neirong>ul>li>div>ul>li{
+	display:inline-block;
+	margin-left:10px;
+}
+.dujia_neirong>ul>li>div>h6{
+	color:#0286a0;
+	font-weight:bold;
+	background:#e2f3f8;
+	height:28px;
+	padding:0 8px;
+	line-height:28px;
+	margin-bottom:6px;
+}
+.dujia_neirong>ul>li>div>p{
+	font-size:12px;
+	color:#666;
+	margin:8px 8px;
+}
+.dujia_neirong>ul>li>div>ul>li>a{
+	font-size:12px;
+}
+.dujia_neirong>ul>li>div>ul{
+	margin:7px 0;
+}
+.dujia_neirong>ul>li>div>ul:last-child{
+	margin-bottom:10px;
+}
+#dujia>ul{
+	display:inline-block;
+	width:251px;
+	height:548px;
+	float:left;
+	margin-left:8px;
+}
+#dujia>ul>li{
+	border:1px solid #eee;
+	margin-top:10px;
+	width:248px;
+	overflow:hidden;
+}
+#dujia>ul>li>h6{
+	margin:19px 0 0 8px;
+	color:#666;
+	font-size:14px;
+}
+#dujia>ul>li>h4{
+	margin:46px 0 8px 8px;
+	color:#f55;
+	font-size:20px;
+	font-weight:bold;
+}
+/* 景点门票 */
+#jingdian{
+	width:1200px;
+	height:640px;
+	margin:0 auto;
+}
+#jingdian>.top{
+	width:950px;
+	height:45px;
+	border-bottom:2px solid #00afc7;
+	color:#00afc7;
+}
+#jingdian>.top>h4{
+	line-height:45px;
+}
+.jingdian_neirong{
+	width:177px;
+	float:left;
+}
+.jingdian_neirong>ul>li>div{
+	margin-top:10px;
+	border:1px solid #e2f3f8;
+}
+.jingdian_neirong>ul>li>div>ul>li{
+	display:inline-block;
+	margin-left:10px;
+}
+.jingdian_neirong>ul>li>div>h6{
+	color:#0286a0;
+	font-weight:bold;
+	background:#e2f3f8;
+	height:28px;
+	padding:0 8px;
+	line-height:28px;
+	margin-bottom:6px;
+}
+.jingdian_neirong>ul>li>div>p{
+	font-size:12px;
+	color:#666;
+	margin:8px 8px;
+}
+.jingdian_neirong>ul>li>div>ul>li>a{
+	font-size:12px;
+}
+.jingdian_neirong>ul>li>div>ul{
+	margin:6px 0;
+}
+.jingdian_neirong>ul>li>div>ul:last-child{
+	margin-bottom:10px;
+}
+#jingdian>ul{
+	display:inline-block;
+	width:251px;
+	height:548px;
+	float:left;
+	margin-left:8px;
+}
+#jingdian>ul>li{
+	border:1px solid #eee;
+	margin-top:10px;
+	width:248px;
+	overflow:hidden;
+}
+
+#jingdian>ul>li>h6{
+	margin:19px 0 0 8px;
+	color:#666;
+	font-size:14px;
+}
+#jingdian>ul>li>p{
+	font-size:12px;
+	color:#aaa;
+	margin:10px 0 0 8px;
+}
+#jingdian>ul>li>h4{
+	margin:19px 0 8px 8px;
+	color:#f55;
+	font-size:20px;
+	font-weight:bold;
+}
+/* 旅游攻略 */
+#gonglv{
+	width:1200px;
+	height:500px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#gonglv>.top{
+	width:950px;
+	height:45px;
+	border-bottom:2px solid #00afc7;
+	color:#00afc7;
+}
+#app{
+	float:left;
+}
+#app>video{
+	width:688px;
+	margin-top:10px;
+}
+#gonglv>ul{
+	float:left;
+	margin:11px 0 0 10px;
+}
+#gonglv>ul>li{
+	border:1px solid #eee;
+}
+#gonglv>ul>li>p{
+	margin-bottom:5px;
+	color:#666;
+	font-size:14px;
+}
+#gonglv>ul>li:last-child{
+	margin-top:5px;
+}
+#dibu{
+	height:260px;
+	width:100%;
+}
+
